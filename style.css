@@ -10,6 +10,7 @@ html{
 }
 
 body{
+	width: 100%;
 	background: #edeeef;
 	color: #616b6c;
 }
@@ -91,7 +92,7 @@ nav ul li a:hover::after{
 
 .about-col-1 img{
 	width: 100%;
-	border-radius: 100px;
+	border-radius: 10px;
 }
 
 .about-col-2{
@@ -165,7 +166,7 @@ nav ul li a:hover::after{
 	font-size: 7em;
 	transform-style: preserve-3d;
 	perspective: 500px;
-	box-shadow: 0 15px 25px rgb(0, 0, 0.1);
+	box-shadow: 1px 1px 6px #000000ff;
 	transition: background 0.5s;
 }
 
@@ -281,6 +282,10 @@ nav .fa-solid{
 	#header {
 		background-image: url(img/img3.png);
 		background-size: cover;
+	}
+
+	body {
+		width: 100%;
 	}
 
 	.header-text {
